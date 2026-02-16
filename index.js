@@ -2,7 +2,6 @@ require("dotenv").config();
 const express = require("express");
 const Console = require("./ConsoleUtils");
 const CryptoUtils = require("./CryptoUtils");
-const cors = require('cors');
 const SharedUtils = require("./SharedUtils");
 const BotManager = require("./BotManager");
 const TournamentManager = require("./TournamentManager");
